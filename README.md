@@ -1,4 +1,4 @@
-# *DS_with_hackoberfest*
+# DS_with_hackoberfest
 
 # 🎃 HacktoberFest Starter Project 🎃
 
@@ -22,7 +22,7 @@ Here are 3 quick and painless ways to contribute to this project:
 
 * Add your name to the `CONTRIBUTORS.md` file
 * Add a profile page to the `profiles` directory
-* build your favourite  Data Structure(vanilla version) in your favourite language and add it to the respected language folder.
+* build your favourite  Data Structure(vanilla version) in your favourite language and add it to the respective language folder.
 * if the folder of your language is not available then create a new folder and add your code in it.
 
 Choose one or all, make a pull request for your work and wait for it to be merged!
@@ -170,11 +170,11 @@ int main() {
 }
 ```
 
-Name the file `nameOfDataStructure_yourusername.xx`. e.g., `Stack_santoshvijapure.c++` or `Stack_santoshvijapure.py`.
+Name the file `nameOfDataStructure_yourusername.xx`. e.g., `Stack_santoshvijapure.cpp` or `Stack_santoshvijapure.py`.
 
 Don't forget to include the comments as seen above. Feel free to include additional information about the language you choose in your comments too! Like a link to a helpful introduction or tutorial. 
 
-Here is my `Stack_santoshvijapure.c++` example: [Stack_santoshvijapure.c++](https://github.com/santoshvijapure/DS_with_hacktoberfest/blob/master/Data_Structures/c++/Stack_santoshvijapure.c++)
+Here is my `Stack_santoshvijapure.cpp` example: [Stack_santoshvijapure.cpp](https://github.com/santoshvijapure/DS_with_hacktoberfest/blob/master/Data_Structures/c++/Stack_santoshvijapure.cpp)
 
 ## BONUS!
 * See profiles submitted by fellow coders from around the globe ... from Kathmandu to Copenhagen.
