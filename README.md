@@ -174,7 +174,7 @@ Name the file `nameOfDataStructure_yourusername.xx`. e.g., `Stack_santoshvijapur
 
 Don't forget to include the comments as seen above. Feel free to include additional information about the language you choose in your comments too! Like a link to a helpful introduction or tutorial. 
 
-Here is my `Stack_santoshvijapure.cpp` example: [Stack_santoshvijapure.cpp](https://github.com/santoshvijapure/DS_with_hacktoberfest/blob/master/Data_Structures/c++/Stack_santoshvijapure.cpp)
+Here is my `Stack_santoshvijapure.cpp` example: [Stack_santoshvijapure.cpp](https://github.com/santoshvijapure/DS_with_hacktoberfest/blob/master/Data_Structures/C%2B%2B/Stack_santoshvijapure.cpp)
 
 ## BONUS!
 * See profiles submitted by fellow coders from around the globe ... from Kathmandu to Copenhagen.
