@@ -3,6 +3,10 @@
  - Bio: Web Developer and designer.
  - GitHub: [santoshvijapure](https://github.com/santoshvijapure)
 
+### Name: Kartikay Gupta
+ - Place: Ranchi, India
+ - Bio: Web Developer, designer and Machine Learning Enthusiast.
+ - GitHub: [mkart14](https://github.com/mkart14)
 
 #### Name : Prathamesh More
 - Place: Pune, India
