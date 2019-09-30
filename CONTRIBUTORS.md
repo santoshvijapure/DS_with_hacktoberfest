@@ -14,3 +14,8 @@
 - Place: Delhi, India
 - Bio: Python and Processing dev
 - GitHub: [Ashish0804](https://github.com/Ashish0804)
+
+### Name: [Ronika](https://github.com/ronika-das)
+- Place: Delhi
+- Bio: Computer science student
+- Github: [ronika-das](https://github.com/ronika-das)
