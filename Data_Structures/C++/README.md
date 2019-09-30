@@ -1,3 +1,4 @@
+//stack in c++
 #include <iostream>
 using namespace std;
 struct Node { 
