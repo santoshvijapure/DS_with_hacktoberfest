@@ -1,89 +1,96 @@
 // cpp.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//Author : Prathamesh More
+//Author : harsh sharma
 //Compiler: Microsoft Visual Studio (Don't confuse with Visual Studio Code)
 //Language: C++14
 
-#include <iostream>
-#include<array>
-
-struct Node {
+#include<iostream>
+#include<process.h>
+ 
+using namespace std;
+ 
+struct Node
+{
 	int data;
-	Node* next;
-} node;
-
-void display(Node* top) {
+	Node *next;
+}*top=NULL,*p;
+ 
+Node* newnode(int x)
+{
+	p=new Node;
+	p->data=x;
+	p->next=NULL;
+	return(p);
+}
+ 
+void push(Node *q)
+{
+	if(top==NULL)
+		top=q;
+	else
+	{
+		q->next=top;
+		top=q;
+	}
+}
+ 
+void pop(){
+	if(top==NULL){
+		cout<<"Stack is empty!!";
+	}
+	else{
+		cout<<"Deleted element is "<<top->data;
+		p=top;
+		top=top->next;
+		delete(p);
+	}
+}
+ 
+void showstack()
+{
+	Node *q;
+	q=top;
+ 
+	if(top==NULL){
+		cout<<"Stack is empty!!";
+	}
+	else{
+		while(q!=NULL)
+		{
+			cout<<q->data<<" ";
+			q=q->next;
+		}		
+	}
+}
+ 
+int main()
+{
+	int ch,x;
+	Node *nptr;
 	
-	Node* temp = top;
-
-	if (top == NULL) {
-		std::cout << "Stack is empty" << std::endl;
-	}
-	else {
-		while (temp->next != NULL) {
-			std::cout << "Stack elements are : " <<  temp->data << std::endl;
-			temp = temp->next;
-		}
-	}
-}
-
-void push(Node** top) {
-	int data{};
-
-	Node* ptr = new Node;
-	
-	std::cout << "Enter data : " << std::endl;
-	std::cin >> data;
-	ptr->data = data;
-	ptr->next = *top;
-	*top = ptr;
-	display(*top);
-}
-
-void pop(Node** top) {
-	Node* ptr = new Node;
-	if (*top == NULL) {
-		std::cout << "Stack is underflow " << std::endl;
-		return;
-	}
-	int data = (*top)->data;
-	ptr = *top;
-	(*top) = ptr->next;
-	free(ptr);
-
-	display(*top);
-
-}
-
-
-int main() {
-
-	int choice{};
-
-	Node* top = NULL;
-
-	do {
-		std::cout << "Welcome to Stack" << std::endl;
-		std::cout << "1. Push elements " << std::endl;
-		std::cout << "2. Pop elemtns " << std::endl;
-		std::cout << "3. Show stack elements" << std::endl;
-		std::cin >> choice;
-
-		switch (choice) {
-		case 1:
-			push(&top);
-			break;
-		case 2:
-			pop(&top);
-			break;
-
-		case 3:
-			display(top);
-			break;
-		}
+	while(1)
+	{
+		cout<<"\n\n1.Push\n2.Pop\n3.Display\n4.Exit";
+		cout<<"\nEnter your choice(1-4):";
+		cin>>ch;
 		
-	} while (1);
+		switch(ch){
+			case 1: cout<<"\nEnter data:";
+					cin>>x;
+					nptr=newnode(x);
+					push(nptr);
+					break;
+			
+			case 2: pop();
+					break;
+					
+			case 3: showstack();
+					break;
+			
+			case 4: exit(0);
+			
+			default: cout<<"\nWrong choice!!";
+		}
+	}
 	
-
-	std::cin.get();
-
+	return 0;
 }
