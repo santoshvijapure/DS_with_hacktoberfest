@@ -1,3 +1,8 @@
+// LANGUAGE: c++
+// ENV: gcc
+// AUTHOR: Kartikay Gupta
+// GITHUB: https://github.com/mkart14
+
 #include <bits/stdc++.h> 
 using namespace std; 
   
