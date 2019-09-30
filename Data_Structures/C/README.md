@@ -78,8 +78,7 @@ void pop()
 	} 
 } 
 
-// Function to print all the 
-// elements of the stack 
+
 void display() 
 { 
 	struct Node* temp; 
