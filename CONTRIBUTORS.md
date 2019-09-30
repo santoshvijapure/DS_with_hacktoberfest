@@ -9,3 +9,8 @@
 - Bio: Full Stack Android and Back End Developer
 - GitHub: [pprathameshmore](https://github.com/pprathamesh)
 - Webpage: [Prthamesh More](https://pprathameshmore.github.io)
+
+#### Name: [Ashish](https://github.com/Ashish0804)
+- Place: Delhi, India
+- Bio: Python and Processing dev
+- GitHub: [Ashish0804](https://github.com/Ashish0804)
