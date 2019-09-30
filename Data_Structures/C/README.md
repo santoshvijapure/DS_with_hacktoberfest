@@ -1,5 +1,4 @@
-// C program to Implement a stack 
-//using singly linked list 
+
 #include <bits/stdc++.h> 
 using namespace std; 
 
