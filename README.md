@@ -201,4 +201,4 @@ GitHub license explained [https://choosealicense.com](https://choosealicense.com
 
 # Maintainers 
 * Santosh Vijapure : [github](https://github.com/santoshvijapure),[LinkedIn](https://www.linkedin.com/in/santoshvijapure/),[Website](https://santoshvijapure.xyz)
-*Prathamesh More :[github](https://github.com/pprathameshmore),[LinkedIn](https://www.linkedin.com/in/prathamesh-more/),[Website](https://pprathameshmore.github.io)
+* Prathamesh More :[github](https://github.com/pprathameshmore),[LinkedIn](https://www.linkedin.com/in/prathamesh-more/),[Website](https://pprathameshmore.github.io)
