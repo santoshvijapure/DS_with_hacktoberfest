@@ -15,6 +15,11 @@
 - Bio: Python and Processing dev
 - GitHub: [Ashish0804](https://github.com/Ashish0804)
 
+#### Name: [Palak](https://github.com/palaknaugriya)
+- Place: New Delhi, India
+- Bio: Full Stack Developer
+- GitHub: [palaknaugriya](https://github.com/palaknaugriya)
+
 ### Name: [Ronika](https://github.com/ronika-das)
 - Place: Delhi
 - Bio: Computer science student
