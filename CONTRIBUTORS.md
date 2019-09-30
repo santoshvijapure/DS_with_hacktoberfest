@@ -19,3 +19,8 @@
 - Place: New Delhi, India
 - Bio: Full Stack Developer
 - GitHub: [palaknaugriya](https://github.com/palaknaugriya)
+
+### Name: [Ronika](https://github.com/ronika-das)
+- Place: Delhi
+- Bio: Computer science student
+- Github: [ronika-das](https://github.com/ronika-das)
