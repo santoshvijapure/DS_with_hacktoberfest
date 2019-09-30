@@ -24,3 +24,8 @@
 - Place: Delhi
 - Bio: Computer science student
 - Github: [ronika-das](https://github.com/ronika-das)
+
+### Name: [Jasneet](https://github.com/InnovativeCoder)
+- Place: Delhi
+- Bio: Computer science student
+- Github: [InnovativeCoder](https://github.com/InnovativeCoder)
