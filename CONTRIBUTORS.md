@@ -65,3 +65,8 @@
 - Place: Jamshedpur,Jharkhand, India
 - Bio: Third Year Computer Science Student
 - Github: [Piyush](https://github.com/piyush072)
+
+### Name: [Naman](https://github.com/njain-01)
+-Place: Delhi, India
+-Bio: Computer Science Undergrad
+-GitHub:[Naman](https://github.com/njain-01)
