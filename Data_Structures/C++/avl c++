@@ -1,0 +1,141 @@
+#include <iostream>
+using namespace std;
+
+/*
+typedef struct{
+    int valor;
+    struct arvore *d;
+    struct arvore *e;
+}arvore;*/
+struct arvore{
+    int valor;
+    struct arvore *d;
+    struct arvore *e;
+    int altura;
+};
+typedef struct arvore arvore;
+int k;
+int autura(arvore *x){
+    if(x==NULL){
+        return 0;
+    }
+    return (*x).altura;
+}
+int max(int a, int b){
+    return (a > b)? a : b;
+}
+arvore *criar(int x){
+    //printf("criou\n");
+    arvore *tmp=NULL;
+    tmp=(arvore*)malloc(sizeof(arvore));
+    (*tmp).valor=x;
+    (*tmp).d=NULL;
+    (*tmp).e=NULL;
+    (*tmp).altura=1;
+    return tmp;
+}
+arvore *rd(arvore *raiz){
+    arvore *a=raiz->e;
+    arvore *b=a->d;
+    //rotação
+    a->d=raiz;
+    raiz->e=b;
+    //atualizar alturas
+    raiz->altura=max(autura(raiz->e),autura(raiz->d))+1;
+    a->altura=max(autura(a->e),autura(a->d))+1;
+    return a;
+}
+arvore *re(arvore *raiz){
+    arvore *a=raiz->d;
+    arvore *b=a->e;
+    //rotação
+    a->e=raiz;
+    raiz->d=b;
+    //atualizar alturas
+    raiz->altura=max(autura(raiz->d),autura(raiz->e))+1;
+    a->altura=max(autura(a->d),autura(a->e))+1;
+    return a;
+}
+int balanco(arvore *raiz){
+    if(raiz==NULL){
+        return 0;
+    }
+    return autura(raiz->e)-autura(raiz->d);
+}
+arvore *inserir(arvore *raiz,int x){
+    if(raiz==NULL){
+        return(criar(x));
+    }
+    else if((*raiz).valor>x){
+        (*raiz).e=inserir((*raiz).e,x);
+    }
+    else if((*raiz).valor<x){
+        (*raiz).d=inserir((*raiz).d,x);
+    }
+    else{
+        return raiz;
+    }
+    //atualizar altura
+    raiz->altura=max(autura(raiz->e),autura(raiz->d))+1;
+    //balancear
+    int bal=balanco(raiz);
+    if(bal>1 && x<raiz->e->valor){
+        return rd(raiz);
+    }
+    if(bal<-1 && x>raiz->d->valor){
+        return re(raiz);
+    }
+    if(bal>1 && x>raiz->e->valor){
+        raiz->e=re(raiz->e);
+        return rd(raiz);
+    }
+    if(bal<-1 && x<raiz->d->valor){
+        raiz->d=rd(raiz->d);
+        return re(raiz);
+    }
+    return(raiz);
+}
+void posordi(arvore *raiz,int vetor[]){
+    if(raiz!=NULL){
+        posordi((*raiz).e,vetor);
+        vetor[k]=(*raiz).valor;
+        k++;
+        posordi((*raiz).d,vetor);
+    }
+}
+
+
+
+int main(){
+    arvore *raiz;
+    int linhas;
+    int op;
+    int n;
+    int vetor[200010];
+    int quant=0;
+    int i;
+
+    raiz=NULL;
+    scanf("%i",&linhas);
+
+    for(i=0;i<linhas;i++){
+            scanf("%i %i",&op,&n);
+            if(op==1){
+                raiz = inserir(raiz,n);
+                quant++;
+            }
+            else{
+                k=0;
+                posordi(raiz,vetor);
+                for(k=0;k<quant;k++){
+                    if(vetor[k]==n){
+                        printf("%i\n",k+1);
+                        goto prox;
+                    }
+                }
+                printf("Data tidak ada\n");
+            }
+            prox:;
+    }
+return 0;
+}
