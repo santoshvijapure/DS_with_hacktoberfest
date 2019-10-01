@@ -1,3 +1,8 @@
+// LANGUAGE: c
+// ENV: gcc
+// AUTHOR: Nitin Sultania
+// GITHUB: https://github.com/nitinsultania
+
 #include<stdio.h>
 #include<stdlib.h>
 
