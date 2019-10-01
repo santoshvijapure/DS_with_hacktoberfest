@@ -35,6 +35,26 @@ module.exports = class LinkedList {
   }
 
   remove(idx) {
+    if (this._size === 0) { return }
+
+    this._size--;
+    if (idx === 0) { // only case where we have to modify the head
+      this.head = this.head.next;
+      return;
+    }
+
+    let curr = this.head;
+    let i = 0;
+    // stop 1 before where we want to remove
+    while (curr !== null && i < idx - 1) {
+      i++;
+      curr = curr.next
+    }
+
+    // grab the one after
+    const succ = curr.next && curr.next.next;
+    // assign prev's node next to new
+    curr.next = succ;
 
   }
 
@@ -76,6 +96,6 @@ module.exports = class LinkedList {
 class Node {
   constructor(value, next = null) {
     this.value = value;
-    this.next = null;
+    this.next = next;
   }
 }
