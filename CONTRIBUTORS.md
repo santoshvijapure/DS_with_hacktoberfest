@@ -99,6 +99,11 @@
 -GitHub:[Naman](https://github.com/njain-01)
 
 
+### Name: Byron Smith
+ - Place: Atlanta, Georgia
+ - Bio: Graduate Student
+ - GitHub: [bumbaro2217](https://https://github.com/bumbaro2217)
+
 ### Name: [Rohit](https://github.com/rohitbakoliya)
  - Place: Surat, India
  - Bio: 2nd year computer science student.
@@ -108,5 +113,3 @@
  - Place: Cologne, Germany
  - Bio: Full Stack HbbTV Software Engineer
  - GitHub: [C3-TKO](https://github.com/C3-TKO)
-
-
