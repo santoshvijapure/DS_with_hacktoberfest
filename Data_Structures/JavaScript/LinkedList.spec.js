@@ -49,9 +49,9 @@ describe('LinkedList', () => {
     ll.prepend('A')
     ll.append('D')
 
-    // ll.remove(3)
+    ll.remove(3)
 
-    expect(ll.toArray()).to.deep.equal('ABCZD'.split(''))
+    expect(ll.toArray()).to.deep.equal('ABCD'.split(''))
 
   })
 })
