@@ -70,3 +70,8 @@
 -Place: Delhi, India
 -Bio: Computer Science Undergrad
 -GitHub:[Naman](https://github.com/njain-01)
+
+### Name: [Rohit](https://github.com/rohitbakoliya)
+-Place: Surat, India
+-Bio: Computer Science Undergrad
+-GitHub:[Rohit](https://github.com/rohitbakoliya)
