@@ -1,4 +1,9 @@
-### Name: SantoshVijapure
+### Name: Tavish Jain
+ - Place: New Delhi, India
+ - Bio: Android Developer and Machine Learning Enthusiast.
+ - GitHub: [tavishjain](https://github.com/tavishjain)
+ 
+ ### Name: SantoshVijapure
  - Place: Pune, India
  - Bio: Web Developer and designer.
  - GitHub: [santoshvijapure](https://github.com/santoshvijapure)
