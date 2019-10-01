@@ -1,7 +1,7 @@
-export default class LinkedList {
+module.exports = class LinkedList {
   constructor() {
     this.head = null;
-    this.size = 0;
+    this._size = 0;
   }
 
   prepend() {
@@ -20,13 +20,22 @@ export default class LinkedList {
 
   }
 
-  contains() {
+  get(idx) {
 
+  }
+
+  contains(value) {
+    let curr = this.head;
+    while (curr !== null && curr.value !== value) {
+      curr = curr.head;
+    }
+    return curr !== null
   }
 
   size() {
-
+    return this._size;
   }
+
 
 }
 
