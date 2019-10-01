@@ -70,3 +70,8 @@
 -Place: Delhi, India
 -Bio: Computer Science Undergrad
 -GitHub:[Naman](https://github.com/njain-01)
+
+### Name: Thomas Kolar
+ - Place: Cologne, Germany
+ - Bio: Full Stack HbbTV Software Engineer
+ - GitHub: [C3-TKO](https://github.com/C3-TKO)
