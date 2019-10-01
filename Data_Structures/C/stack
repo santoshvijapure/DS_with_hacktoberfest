@@ -1,0 +1,56 @@
+#include <stdio.h>
+#include <stdlib.h>
+typedef struct Link{
+int element;
+struct Link *next;
+}Link;
+typedef struct Stack{
+Link *top;
+int size;
+}Stack;
+Link *create_link(int i, Link *nextval){
+    Link *n = (Link*) malloc(sizeof(Link));
+    n->element = i;
+    n->next = nextval;
+    return n;
+}
+Stack *create_stack(){
+    Stack *s = (Stack*) malloc(sizeof(Stack));
+    s->top = NULL;
+    s->size = 0;
+    return s;
+}
+void clear(Stack *s){
+    s->top = NULL;
+    s->size = 0;
+}
+void push(Stack *s, int it){
+    s->top = create_link(it, s->top);
+    (s->size)++;
+}
+int pop(Stack *s){
+    if(s->top==NULL) printf("OPAAAAAAAAA\n");
+    int it = s->top->element;
+    s->top = s->top->next;
+    s->size--;
+    return it;
+}
+int topValue(Stack *s){
+    if(s->top==NULL) printf("OPAAAAAAAA\n");
+    return s->top->element;
+}
+int length(Stack *s){
+return s->size;
+}
+int main(){
+    Stack *d;
+    d = create_stack();
+    push(d, 19);
+    push(d, 11);
+    push(d, 8);
+    printf("Pop: %d\n", pop(d));
+    printf("Pop: %d\n", pop(d));
+    printf("Pop: %d\n", pop(d));
+
+    return 0;
+}
