@@ -1,14 +1,15 @@
+### Name: SantoshVijapure
+
+- Place: Pune, India
+- Bio: Web Developer and designer.
+- GitHub: [santoshvijapure](https://github.com/santoshvijapure)
+
 ### Name: Tavish Jain
 
 - Place: New Delhi, India
 - Bio: Android Developer and Machine Learning Enthusiast.
 - GitHub: [tavishjain](https://github.com/tavishjain)
 
-### Name: SantoshVijapure
-
-- Place: Pune, India
-- Bio: Web Developer and designer.
-- GitHub: [santoshvijapure](https://github.com/santoshvijapure)
 
 ### Name: Kartikay Gupta
 
@@ -73,6 +74,11 @@
 - Bio: Computer science student
 - Github: [Nitin](https://github.com/nitinsultania)
 
+
+### Name: [Ankush Mehta](https://github.com/Ankush3103)
+- Place: Pune, India
+- Bio: student
+- GitHub: [Ankush3103](https://github.com/Ankush3103)
 ### Name : [Piyush](https://github.com/piyush072)
 
 - Place: Jamshedpur,Jharkhand, India
