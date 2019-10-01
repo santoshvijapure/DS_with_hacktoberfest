@@ -38,3 +38,8 @@
 - Place: West Bengal, India
 - Bio: Computer science student
 - Github: [promaroy](https://github.com/promaroy)
+
+### Name: [Nitin](https://github.com/nitinsultania)
+- Place: West Bengal, India
+- Bio: Computer science student
+- Github: [Nitin](https://github.com/nitinsultania)
