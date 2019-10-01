@@ -1,4 +1,9 @@
-### Name: SantoshVijapure
+### Name: Tavish Jain
+ - Place: New Delhi, India
+ - Bio: Android Developer and Machine Learning Enthusiast.
+ - GitHub: [tavishjain](https://github.com/tavishjain)
+ 
+ ### Name: SantoshVijapure
  - Place: Pune, India
  - Bio: Web Developer and designer.
  - GitHub: [santoshvijapure](https://github.com/santoshvijapure)
@@ -40,6 +45,11 @@
 - Place: Delhi
 - Bio: Computer science student
 - Github: [InnovativeCoder](https://github.com/InnovativeCoder)
+
+### Name: [Sathyanarayanan R](https://github.com/rsathya4802)
+- Place: Chennai
+- Bio: Computer Science Student
+- Github : [rsathya4802] (https://github.com/rsathya4802)
 
 ### Name: [Proma](https://github.com/promaroy)
 - Place: West Bengal, India
