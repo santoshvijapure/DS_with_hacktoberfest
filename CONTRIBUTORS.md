@@ -91,13 +91,22 @@
 - Place: New York, NY, USA
 - Bio: Aspiring employee
 - GitHub: Stan So (https://github.com/stanley-c-so/)
+
+
 ### Name: [Naman](https://github.com/njain-01)
 -Place: Delhi, India
 -Bio: Computer Science Undergrad
 -GitHub:[Naman](https://github.com/njain-01)
 
+
+### Name: [Rohit](https://github.com/rohitbakoliya)
+ - Place: Surat, India
+ - Bio: 2nd year computer science student.
+ - GitHub: [Rohit](https://github.com/rohitbakoliya)
+
 ### Name: Thomas Kolar
  - Place: Cologne, Germany
  - Bio: Full Stack HbbTV Software Engineer
  - GitHub: [C3-TKO](https://github.com/C3-TKO)
+
 
