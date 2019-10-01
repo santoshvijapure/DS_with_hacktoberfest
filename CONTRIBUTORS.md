@@ -14,6 +14,13 @@
 - GitHub: [pprathameshmore](https://github.com/pprathamesh)
 - Webpage: [Prthamesh More](https://pprathameshmore.github.io)
 
+### Name : Amit Gujar
+- Place: Pune, India
+- Bio: Front End Developer, PC Gamer, Blogger.
+- GitHub: [Amit Gujar](https://github.com/AmitGujar)
+- Webpage: [Amit Gujar](https://amitgujar.github.io/)
+- Blog: [Amit Gujar](https://medium.com/@amitgujar19)
+
 #### Name: [Ashish](https://github.com/Ashish0804)
 - Place: Delhi, India
 - Bio: Python and Processing dev
