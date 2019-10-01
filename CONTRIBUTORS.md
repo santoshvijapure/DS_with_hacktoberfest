@@ -55,3 +55,8 @@
 - Place: West Bengal, India
 - Bio: Computer science student
 - Github: [Nitin](https://github.com/nitinsultania)
+
+### Name: Ram Nad
+- Place: West Bengal, India
+- Bio: CS Undergraduate
+- Github: [ram-nad](https://github.com/ram-nad)
