@@ -70,3 +70,8 @@
 -Place: Delhi, India
 -Bio: Computer Science Undergrad
 -GitHub:[Naman](https://github.com/njain-01)
+
+### Name: Byron Smith
+ - Place: Atlanta, Georgia
+ - Bio: Graduate Student
+ - GitHub: [bumbaro2217](https://https://github.com/bumbaro2217)
