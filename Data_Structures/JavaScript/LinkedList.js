@@ -32,8 +32,17 @@ module.exports = class LinkedList {
     return curr !== null
   }
 
-  size() {
+  length() {
     return this._size;
+  }
+
+  toArray() {
+    const arr = [];
+    let curr = this.head;
+    while (curr !== null) {
+      arr.push(curr.value)
+      curr = curr.head;
+    }
   }
 
 
