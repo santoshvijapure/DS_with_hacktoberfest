@@ -38,3 +38,13 @@
 - Place: West Bengal, India
 - Bio: Computer science student
 - Github: [promaroy](https://github.com/promaroy)
+
+### Name: [Nitin](https://github.com/nitinsultania)
+- Place: West Bengal, India
+- Bio: Computer science student
+- Github: [Nitin](https://github.com/nitinsultania)
+
+### Name: Ram Nad
+- Place: West Bengal, India
+- Bio: CS Undergraduate
+- Github: [ram-nad](https://github.com/ram-nad)
