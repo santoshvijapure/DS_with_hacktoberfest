@@ -26,4 +26,32 @@ describe('LinkedList', () => {
     expect(ll.toArray()).to.deep.equal(stuff)
 
   })
+
+  it('should be able to remove stuff', () => {
+    const ll = new LL();
+    const stuff = [
+      'A', 'B', 'C'
+    ];
+    stuff.forEach((el) => ll.append(el))
+
+    ll.remove(1)
+    expect(ll.toArray()).to.deep.equal(['A', 'C'])
+
+  })
+
+  it('should handle complex operations', () => {
+    const ll = new LL();
+    const stuff = [
+      'B', 'C', 'Z'
+    ]
+    stuff.forEach((el) => ll.append(el))
+
+    ll.prepend('A')
+    ll.append('D')
+
+    // ll.remove(3)
+
+    expect(ll.toArray()).to.deep.equal('ABCZD'.split(''))
+
+  })
 })
