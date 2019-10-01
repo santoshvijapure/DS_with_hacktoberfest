@@ -12,7 +12,7 @@ describe('LinkedList', () => {
     const ll = new LL();
     const str = 'my value @ 0'
     ll.prepend(str);
-    expect(ll.length()).to.equal(0)
+    expect(ll.length()).to.equal(1)
     expect(ll.contains(str)).to.equal(true)
     expect(ll.get(0)).to.equal(str)
   })
