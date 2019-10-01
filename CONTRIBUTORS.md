@@ -38,3 +38,8 @@
 - Place: West Bengal, India
 - Bio: Computer science student
 - Github: [promaroy](https://github.com/promaroy)
+ 
+### Name: Ram Nad
+- Place: West Bengal, India
+- Bio: CS undergraduate
+- Github: [ram-nad](https://github.com/ram-nad)
