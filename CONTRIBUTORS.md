@@ -43,3 +43,8 @@
 - Place: West Bengal, India
 - Bio: Computer science student
 - Github: [Nitin](https://github.com/nitinsultania)
+
+### Name: [Ankush Mehta](https://github.com/Ankush3103)
+- Place: Pune, India
+- Bio: student
+- GitHub: [Ankush3103](https://github.com/Ankush3103)
