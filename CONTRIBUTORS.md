@@ -61,7 +61,7 @@
 - Bio: Computer science student
 - Github: [Nitin](https://github.com/nitinsultania)
 
-### Name: Ram Nad
-- Place: West Bengal, India
-- Bio: CS Undergraduate
-- Github: [ram-nad](https://github.com/ram-nad)
+### Name : [Piyush](https://github.com/piyush072)
+- Place: Jamshedpur,Jharkhand, India
+- Bio: Third Year Computer Science Student
+- Github: [Piyush](https://github.com/piyush072)
