@@ -39,3 +39,12 @@
 - Bio: Computer Science Student
 - Github : [rsathya4802] (https://github.com/rsathya4802)
 
+### Name: [Proma](https://github.com/promaroy)
+- Place: West Bengal, India
+- Bio: Computer science student
+- Github: [promaroy](https://github.com/promaroy)
+
+### Name: [Nitin](https://github.com/nitinsultania)
+- Place: West Bengal, India
+- Bio: Computer science student
+- Github: [Nitin](https://github.com/nitinsultania)
