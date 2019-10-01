@@ -65,3 +65,8 @@
 - Place: Jamshedpur,Jharkhand, India
 - Bio: Third Year Computer Science Student
 - Github: [Piyush](https://github.com/piyush072)
+
+#### Name: Stan So (https://github.com/stanley-c-so/)
+- Place: New York, NY, USA
+- Bio: Aspiring employee
+- GitHub: Stan So (https://github.com/stanley-c-so/)
