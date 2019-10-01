@@ -1,0 +1,16 @@
+{
+  "name": "ds_with_hacktoberfest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "mocha *.spec.js",
+    "test:watch": "mocha --watch *.spec.js"
+  },
+  "author": "marvinody",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.1"
+  }
+}
