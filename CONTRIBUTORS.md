@@ -46,6 +46,11 @@
 - Bio: Computer science student
 - Github: [InnovativeCoder](https://github.com/InnovativeCoder)
 
+### Name: [Sathyanarayanan R](https://github.com/rsathya4802)
+- Place: Chennai
+- Bio: Computer Science Student
+- Github : [rsathya4802] (https://github.com/rsathya4802)
+
 ### Name: [Proma](https://github.com/promaroy)
 - Place: West Bengal, India
 - Bio: Computer science student
