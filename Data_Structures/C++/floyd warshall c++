@@ -1,0 +1,53 @@
+#include <iostream>
+using namespace std;
+
+int grafo[52][52];
+
+void tuamae(int x){
+    int i,j,k;
+    for(i=0;i<x;i++){
+        for(j=0;j<x;j++){
+            for(k=0;k<x;k++){
+                if(grafo[j][i]+grafo[i][k] < grafo[j][k]){
+                    grafo[j][k]=grafo[j][i]+grafo[i][k];
+                }
+            }
+        }
+    }
+}
+
+
+int main(){
+    int i,j,k,l;
+    int casos;
+    int ordens;
+    int tam;
+    int dist;
+    int a,b;
+
+
+    scanf("%i",&casos);
+    for(l=0;l<casos;l++){
+        ///escanear e zerar a porra toda
+        dist=0;
+        scanf("%i",&tam);
+        ///escanear distancias
+        for(i=0;i<tam;i++){
+            for(j=0;j<tam;j++){
+                scanf("%i",&grafo[i][j]);
+            }
+        }
+        tuamae(tam);
+        ///escanear as ordens
+        scanf("%i",&ordens);
+        for(k=0;k<ordens;k++){
+            scanf("%i %i",&a,&b);
+            a--;
+            b--;
+            dist+=grafo[a][b];
+        }
+        ///printar o valor
+        printf("Case #%i: %i\n",l+1,dist);
+    }
+ return 0;
+}
