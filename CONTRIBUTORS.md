@@ -33,3 +33,8 @@
 - Place: Delhi
 - Bio: Computer science student
 - Github: [InnovativeCoder](https://github.com/InnovativeCoder)
+
+### Name: [Proma](https://github.com/promaroy)
+- Place: West Bengal, India
+- Bio: Computer science student
+- Github: [promaroy](https://github.com/promaroy)
