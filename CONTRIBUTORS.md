@@ -33,3 +33,9 @@
 - Place: Delhi
 - Bio: Computer science student
 - Github: [InnovativeCoder](https://github.com/InnovativeCoder)
+
+### Name: [Sathyanarayanan R](https://github.com/rsathya4802)
+- Place: Chennai
+- Bio: Computer Science Student
+- Github : [rsathya4802] (https://github.com/rsathya4802)
+
