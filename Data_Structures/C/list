@@ -1,0 +1,125 @@
+#include <stdio.h>
+#include <stdlib.h>
+typedef struct Link{
+int element; //valor do nó
+struct Link* next;
+}Link;
+Link *create_link(int it, Link* nextval){
+  Link* n =(Link*) malloc(1*sizeof(Link));
+  n->element = it;
+  n->next = nextval;
+  return n;
+}
+Link *create_link2(Link *nextval){
+  Link * n = (Link*) malloc(1*sizeof(Link));
+  n->next = nextval;
+  return n;
+}
+typedef struct{
+Link *head;
+Link *tail;
+Link *curr;
+int cnt;
+}List;
+List *create_list(){
+  List *l = (List*) malloc(1*sizeof(List));
+  l->curr = create_link2(NULL);
+  l->tail = l->curr;
+  l->head = l->curr;
+  l->cnt = 0;
+  return l;
+}
+void clear(List *l){
+  l->curr = create_link2(NULL);
+  l->tail = l->curr;
+  l->head = l->curr;
+  l->cnt = 0;
+}
+void insert(List* l, int it){
+  (*l).curr->next = create_link(it, (*l).curr->next);
+  if(l->tail==l->curr) l->tail = (*l).curr->next;
+  (l->cnt)++;
+}
+void append(List *l, int it){
+(*l).tail->next = create_link(it, NULL);
+l->tail = (*l).tail->next;
+(l->cnt)++;
+}
+int remover(List *l){
+if((*l).curr->next == NULL) return 0;
+int it = (*l).curr->next->element;
+if(l->tail == (*l).curr->next) l->tail = l->curr;
+(*l).curr->next = (*l).curr->next->next;
+(l->cnt)++;
+return it;
+}
+void moveToStart(List *l){
+  l->curr = l->head;
+}
+void moveToEnd(List *l){
+  l->curr = l->tail;
+}
+void prev(List *l){
+  if(l->curr==l->head){
+
+  }
+  Link *temp = l->head;
+  while(temp->next != l->curr){
+    temp = temp->next;
+  }
+  l->curr = temp;
+}
+void next(List *l){
+  if(l->curr!=l->tail) l->curr = (*l).curr->next;
+}
+int length(List *l){
+  return l->cnt;
+}
+int currPos(List *l){
+  Link *temp = l->head;
+  int i=0;
+  while(l->curr!=temp){
+    temp = temp->next;
+    i++;
+  }
+  return i;
+}
+void moveToPos(List *l, int pos){
+  if(pos<0 || pos>l->cnt){
+
+  }
+  l->curr = l->head;
+  int i=0;
+  while(i<pos){
+    l->curr = (*l).curr->next;
+    i++;
+  }
+}
+int getValue(List *l){
+  if((*l).curr->next==NULL){
+
+  }
+  return (*l).curr->next->element;
+}
+void show(List *l){
+  moveToStart(l);
+  while(l->curr->next!=NULL){
+    l->curr = l->curr->next;
+    printf("%d ", l->curr->element);
+  }
+}
+int main(void) {
+  List *l = create_list();
+  insert(l, 15);
+  insert(l, 12);
+  insert(l, 23);
+  insert(l, 20);
+  next(l);
+  next(l);
+  printf("tamanho: %d\n", length(l));
+  printf("Pos do curr: %d\n", currPos(l));
+  prev(l);
+  printf("Vou remover: %d\n", remover(l));
+  show(l);
+  return 0;
+}
