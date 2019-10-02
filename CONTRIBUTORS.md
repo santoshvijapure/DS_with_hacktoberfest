@@ -130,3 +130,8 @@
  - Place: Zagreb, Croatia
  - Bio: Full Stack Software Developer
  - GitHub: [SensoTron](https://github.com/PhysoTronic)
+
+### Name: Rishabh Sharma
+ - Place: New Delhi, India
+ - Bio: Android Developer
+ - GitHub: [Aliencode-R](https://github.com/Aliencode-R)
