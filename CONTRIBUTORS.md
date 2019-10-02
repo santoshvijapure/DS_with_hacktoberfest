@@ -50,6 +50,12 @@
 - Bio: Computer science student
 - Github: [ronika-das](https://github.com/ronika-das)
 
+### Name: [Chandan Kumar Roy](https://github.com/chandan5362)
+
+- Place: Delhi
+- Bio: Computer science student
+- Github: [chandan Kumar Roy](https://github.com/chandan5362)
+
 ### Name: [Jasneet](https://github.com/InnovativeCoder)
 
 - Place: Delhi
