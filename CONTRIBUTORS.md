@@ -135,3 +135,10 @@
  - Place: New Delhi, India
  - Bio: Android Developer
  - GitHub: [Aliencode-R](https://github.com/Aliencode-R)
+
+ - GitHub: [SensoTron](https://github.com/PhysoTronici)
+
+### Name: Hritik Tayade
+ - Place: Pune, India
+ - Bio: Student
+ - GitHub: [braceritchie](https://github.com/braceritchie)
