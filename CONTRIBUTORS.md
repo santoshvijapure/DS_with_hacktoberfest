@@ -119,3 +119,8 @@
  - Place: Cologne, Germany
  - Bio: Full Stack HbbTV Software Engineer
  - GitHub: [C3-TKO](https://github.com/C3-TKO)
+
+### Name: SensoTron 
+ - Place: Zagreb, Croatia
+ - Bio: Full Stack Software Developer
+ - GitHub: [SensoTron](https://github.com/PhysoTronic)
