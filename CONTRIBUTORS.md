@@ -129,4 +129,10 @@
 ### Name: SensoTron 
  - Place: Zagreb, Croatia
  - Bio: Full Stack Software Developer
- - GitHub: [SensoTron](https://github.com/PhysoTronic)
+ - GitHub: [SensoTron](https://github.com/PhysoTronici)
+
+### Name: Hritik Tayade
+ - Place: Pune, India
+ - Bio: Student
+ - GitHub: [braceritchie](https://github.com/braceritchie)
+
