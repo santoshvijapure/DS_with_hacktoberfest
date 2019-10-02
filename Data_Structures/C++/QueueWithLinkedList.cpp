@@ -1,4 +1,8 @@
-//Queue - Insert at last , Delete at first
+// LANGUAGE: C++
+// ENV: g++
+// AUTHOR: Hritik Tayade
+// GITHUB; https://github.com/braceritchie
+
 
 #include<iostream>
 using namespace std;
