@@ -50,6 +50,12 @@
 - Bio: Computer science student
 - Github: [ronika-das](https://github.com/ronika-das)
 
+### Name: [Indrayani](https://github.com/lambativ)
+
+- Place: Pune
+- Bio: Full Stack Developer
+- Github: [lambativ](https://github.com/lambativ)
+
 ### Name: [Jasneet](https://github.com/InnovativeCoder)
 
 - Place: Delhi
