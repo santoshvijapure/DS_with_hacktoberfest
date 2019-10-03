@@ -1,3 +1,8 @@
+// LANGUAGE: C++
+// ENV: gcc
+// AUTHOR: Shuchita Dobhal
+// GITHUB: https://github.com/dobhsh
+
 #include<iostream>
 #include<algorithm>
 #include"disjoint.h"
