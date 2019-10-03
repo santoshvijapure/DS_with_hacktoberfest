@@ -119,3 +119,9 @@
  - Place: Cologne, Germany
  - Bio: Full Stack HbbTV Software Engineer
  - GitHub: [C3-TKO](https://github.com/C3-TKO)
+
+### Name: [Rounak](https://github.com/ricky1812)
+
+- Place: West Bengal, India
+- Bio: Computer science student
+- Github: [ricky1812](https://github.com/ricky1812)
