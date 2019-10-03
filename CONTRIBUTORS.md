@@ -149,3 +149,8 @@
  - Place: Pune, India
  - Bio: Student
  - GitHub: [braceritchie](https://github.com/braceritchie)
+ 
+ ### Name: M Salman
+ - Place: Delhi, India
+ - Bio: Student
+ - GitHub: [msalman321](https://github.com/msalman321)
