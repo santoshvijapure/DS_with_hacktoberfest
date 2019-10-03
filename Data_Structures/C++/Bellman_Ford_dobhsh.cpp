@@ -1,3 +1,9 @@
+// LANGUAGE: C++
+// ENV: gcc
+// AUTHOR: Shuchita Dobhal
+// GITHUB: https://github.com/dobhsh
+
+/*Code to implement Bellman-Ford Algorithm*/
 #include<iostream>
 #include<bits/stdc++.h>
 using namespace std;

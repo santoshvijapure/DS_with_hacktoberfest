@@ -1,3 +1,8 @@
+// LANGUAGE: C++
+// ENV: gcc
+// AUTHOR: Shuchita Dobhal
+// GITHUB: https://github.com/dobhsh
+
 /* structure is used to return two values from minMax() */
 #include<stdio.h>
 #include<iostream>

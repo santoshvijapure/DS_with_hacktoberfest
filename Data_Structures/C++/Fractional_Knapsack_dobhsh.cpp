@@ -1,3 +1,8 @@
+// LANGUAGE: C++
+// ENV: gcc
+// AUTHOR: Shuchita Dobhal
+// GITHUB: https://github.com/dobhsh
+
 // fractional knapsack
 #include<iostream>
 using namespace std;

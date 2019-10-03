@@ -1,3 +1,8 @@
+// LANGUAGE: C++
+// ENV: gcc
+// AUTHOR: Shuchita Dobhal
+// GITHUB: https://github.com/dobhsh
+
 //quick sort
 #include<iostream>
 using namespace std;
