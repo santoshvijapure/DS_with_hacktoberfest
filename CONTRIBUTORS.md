@@ -133,6 +133,11 @@
  - Bio: Full Stack HbbTV Software Engineer
  - GitHub: [C3-TKO](https://github.com/C3-TKO)
 
+### Name: [Rounak](https://github.com/ricky1812)
+
+- Place: West Bengal, India
+- Bio: Computer science student
+
 ### Name: SensoTron 
  - Place: Zagreb, Croatia
  - Bio: Full Stack Software Developer
