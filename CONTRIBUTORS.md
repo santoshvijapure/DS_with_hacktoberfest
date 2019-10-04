@@ -50,6 +50,19 @@
 - Bio: Computer science student
 - Github: [ronika-das](https://github.com/ronika-das)
 
+
+### Name: [Chandan Kumar Roy](https://github.com/chandan5362)
+
+- Place: Delhi
+- Bio: Computer science student
+- Github: [chandan Kumar Roy](https://github.com/chandan5362)
+
+### Name: [Indrayani](https://github.com/lambativ)
+
+- Place: Pune
+- Bio: Full Stack Developer
+- Github: [lambativ](https://github.com/lambativ)
+
 ### Name: [Jasneet](https://github.com/InnovativeCoder)
 
 - Place: Delhi
@@ -124,4 +137,25 @@
 
 - Place: West Bengal, India
 - Bio: Computer science student
-- Github: [ricky1812](https://github.com/ricky1812)
+
+### Name: SensoTron 
+ - Place: Zagreb, Croatia
+ - Bio: Full Stack Software Developer
+ - GitHub: [SensoTron](https://github.com/PhysoTronic)
+
+### Name: Rishabh Sharma
+ - Place: New Delhi, India
+ - Bio: Android Developer
+ - GitHub: [Aliencode-R](https://github.com/Aliencode-R)
+
+ - GitHub: [SensoTron](https://github.com/PhysoTronici)
+
+### Name: Hritik Tayade
+ - Place: Pune, India
+ - Bio: Student
+ - GitHub: [braceritchie](https://github.com/braceritchie)
+ 
+ ### Name: M Salman
+ - Place: Delhi, India
+ - Bio: Student
+ - GitHub: [msalman321](https://github.com/msalman321)
