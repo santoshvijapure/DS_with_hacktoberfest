@@ -168,3 +168,8 @@
  - Place: Gujarat, India
  - Bio: Student
  - GitHub: [pb-10](https://github.com/pb-10)
+
+## Name: Nathalia Bezerra
+ - Place: Brazil
+ - Bio: IT Student
+ - GitHub: [nathalia-b](https://github.com/nathalia-b)
