@@ -63,6 +63,13 @@
 - Bio: Full Stack Developer
 - Github: [lambativ](https://github.com/lambativ)
 
+### Name: [KetanLambat](https://github.com/ketan-lambat)
+
+- Place: Nagpur
+- Bio: CSE student, Learning Android Dev
+- Github: [Ketan Lambat](https://github.com/ketan-lambat)
+
+
 ### Name: [Jasneet](https://github.com/InnovativeCoder)
 
 - Place: Delhi
