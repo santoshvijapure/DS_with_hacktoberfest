@@ -159,3 +159,8 @@
  - Place: Delhi, India
  - Bio: Student
  - GitHub: [msalman321](https://github.com/msalman321)
+
+ ### Name: Zykiel Erx
+ - Place: Manila, Philippines
+ - Bio: Software Engineer
+ - GitHub: [ZykielErx](https://github.com/ZykielErx)
