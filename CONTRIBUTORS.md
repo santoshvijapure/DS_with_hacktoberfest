@@ -160,7 +160,11 @@
  - Bio: Student
  - GitHub: [msalman321](https://github.com/msalman321)
 
-### Name: Pranit Brahmbhatt
+ ### Name: Zykiel Erx
+ - Place: Manila, Philippines
+ - Bio: Software Engineer
+ - GitHub: [ZykielErx](https://github.com/ZykielErx)
+ ### Name: Pranit Brahmbhatt
  - Place: Gujarat, India
  - Bio: Student
  - GitHub: [pb-10](https://github.com/pb-10)
