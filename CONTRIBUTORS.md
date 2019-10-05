@@ -159,3 +159,8 @@
  - Place: Delhi, India
  - Bio: Student
  - GitHub: [msalman321](https://github.com/msalman321)
+
+### Name: Pranit Brahmbhatt
+ - Place: Gujarat, India
+ - Bio: Student
+ - GitHub: [pb-10](https://github.com/pb-10)
