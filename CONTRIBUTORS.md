@@ -10,6 +10,10 @@
 - Bio: Android Developer and Machine Learning Enthusiast.
 - GitHub: [tavishjain](https://github.com/tavishjain)
 
+### Name: Rohit Suthar
+ - Place: Pune, India
+ - Bio: Android Developer and Web Developer.
+ - GitHub: [iamrohitsuthar](https://github.com/iamrohitsuthar)
 
 ### Name: Kartikay Gupta
 
