@@ -1,3 +1,9 @@
+// LANGUAGE: C
+// ENV: gcc
+// AUTHOR: Vinicius Couto
+// GITHUB: https://github.com/vcoutasso
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
