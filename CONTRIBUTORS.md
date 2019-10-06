@@ -181,7 +181,16 @@
  ### Name: Pranit Brahmbhatt
  - Place: Gujarat, India
  - Bio: Student
- - GitHub: [pb-10](https
+
+ - GitHub: [pb-10](https://github.com/pb-10)
+
+ 
+  ### Name: Wendel Marques
+ - Place: Goiânia, Goiás, Brazil
+ - Bio: Student
+ - GitHub: [WendelMarques](https://github.com/WendelMarques)
+
+
 
 ## Name: Nathalia Bezerra
  - Place: Brazil
@@ -192,3 +201,4 @@
  - Place: Natal, Brazil
  - Bio: Student
  - GitHub: [Viniciu21](https://github.com/viniciu21)
+
