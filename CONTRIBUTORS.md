@@ -182,3 +182,7 @@
  - Place: Gujarat, India
  - Bio: Student
  - GitHub: [pb-10](https://github.com/pb-10)
+### Name: Vinicius Oliveira
+ - Place: Natal, Brazil
+ - Bio: Student
+ - GitHub: [Viniciu21](https://github.com/viniciu21)
