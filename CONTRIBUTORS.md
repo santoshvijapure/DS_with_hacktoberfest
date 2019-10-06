@@ -181,7 +181,13 @@
  ### Name: Pranit Brahmbhatt
  - Place: Gujarat, India
  - Bio: Student
- - GitHub: [pb-10](https://github.com/pb-10)
+ - GitHub: [pb-10](https
+
+## Name: Nathalia Bezerra
+ - Place: Brazil
+ - Bio: IT Student
+ - GitHub: [nathalia-b](https://github.com/nathalia-b)
+
 ### Name: Vinicius Oliveira
  - Place: Natal, Brazil
  - Bio: Student
