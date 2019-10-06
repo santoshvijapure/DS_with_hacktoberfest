@@ -38,6 +38,13 @@
 - Bio: Python and Processing dev
 - GitHub: [Ashish0804](https://github.com/Ashish0804)
 
+
+#### Name: [evilcoder14](https://github.com/evilcoder14)
+
+- Place: Mumbai, India
+- Bio: FrontEnd Developer
+- GitHub: [evilcoder14](https://github.com/evilcoder14)
+
 #### Name: [Palak](https://github.com/palaknaugriya)
 
 - Place: New Delhi, India
@@ -62,6 +69,13 @@
 - Place: Pune
 - Bio: Full Stack Developer
 - Github: [lambativ](https://github.com/lambativ)
+
+### Name: [KetanLambat](https://github.com/ketan-lambat)
+
+- Place: Nagpur
+- Bio: CSE student, Learning Android Dev
+- Github: [Ketan Lambat](https://github.com/ketan-lambat)
+
 
 ### Name: [Jasneet](https://github.com/InnovativeCoder)
 
@@ -167,6 +181,7 @@
  ### Name: Pranit Brahmbhatt
  - Place: Gujarat, India
  - Bio: Student
+
  - GitHub: [pb-10](https://github.com/pb-10)
 
  
@@ -174,3 +189,16 @@
  - Place: Goiânia, Goiás, Brazil
  - Bio: Student
  - GitHub: [WendelMarques](https://github.com/WendelMarques)
+
+
+
+## Name: Nathalia Bezerra
+ - Place: Brazil
+ - Bio: IT Student
+ - GitHub: [nathalia-b](https://github.com/nathalia-b)
+
+### Name: Vinicius Oliveira
+ - Place: Natal, Brazil
+ - Bio: Student
+ - GitHub: [Viniciu21](https://github.com/viniciu21)
+
