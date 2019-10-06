@@ -168,3 +168,9 @@
  - Place: Gujarat, India
  - Bio: Student
  - GitHub: [pb-10](https://github.com/pb-10)
+
+ 
+  ### Name: Wendel Marques
+ - Place: Goiânia, Goiás, Brazil
+ - Bio: Student
+ - GitHub: [WendelMarques](https://github.com/WendelMarques)
