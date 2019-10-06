@@ -4,6 +4,12 @@
 - Bio: Web Developer and designer.
 - GitHub: [santoshvijapure](https://github.com/santoshvijapure)
 
+### Name : Sriram Devata
+
+- Place: Hyderabad, India
+- Bio: Undergraduate Student in Computer Science
+- GitHub: [sriramdvt](https://github.com/sriramdvt)
+
 ### Name: Tavish Jain
 
 - Place: New Delhi, India
