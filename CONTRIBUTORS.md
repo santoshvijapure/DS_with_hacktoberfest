@@ -38,6 +38,13 @@
 - Bio: Python and Processing dev
 - GitHub: [Ashish0804](https://github.com/Ashish0804)
 
+
+#### Name: [evilcoder14](https://github.com/evilcoder14)
+
+- Place: Mumbai, India
+- Bio: FrontEnd Developer
+- GitHub: [evilcoder14](https://github.com/evilcoder14)
+
 #### Name: [Palak](https://github.com/palaknaugriya)
 
 - Place: New Delhi, India
