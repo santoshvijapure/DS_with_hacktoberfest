@@ -15,7 +15,7 @@
 
 - Self Taught Programmer
 
-- ### Profile Link
+### Profile Link
 
-[Stevhen](https://github.com/stevhens)
+- [Stevhen](https://github.com/stevhens)
 

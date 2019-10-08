@@ -86,7 +86,6 @@
 - Bio: CSE student, Learning Android Dev
 - Github: [Ketan Lambat](https://github.com/ketan-lambat)
 
-
 ### Name: [Jasneet](https://github.com/InnovativeCoder)
 
 - Place: Delhi
@@ -113,46 +112,50 @@
 
 
 ### Name: [Ankush Mehta](https://github.com/Ankush3103)
+
 - Place: Pune, India
 - Bio: student
 - GitHub: [Ankush3103](https://github.com/Ankush3103)
+
 ### Name : [Piyush](https://github.com/piyush072)
 
 - Place: Jamshedpur,Jharkhand, India
 - Bio: Third Year Computer Science Student
 - Github: [Piyush](https://github.com/piyush072)
 
-
-#### Name: [Thomas](https://github.com/tluo9713)
+### Name: [Thomas](https://github.com/tluo9713)
 
 - Place: New York City, NY, USA
 - Bio: Recent Bootcamp Grad
 - GitHub: [tluo9713](https://github.com/tluo9713)
 
 
-#### Name: Stan So (https://github.com/stanley-c-so/)
+### Name: Stan So (https://github.com/stanley-c-so)
+
 - Place: New York, NY, USA
 - Bio: Aspiring employee
-- GitHub: Stan So (https://github.com/stanley-c-so/)
-
+- GitHub: Stan So (https://github.com/stanley-c-so)
 
 ### Name: [Naman](https://github.com/njain-01)
+
 -Place: Delhi, India
 -Bio: Computer Science Undergrad
 -GitHub:[Naman](https://github.com/njain-01)
 
-
 ### Name: Byron Smith
+
  - Place: Atlanta, Georgia
  - Bio: Graduate Student
  - GitHub: [bumbaro2217](https://https://github.com/bumbaro2217)
 
 ### Name: [Rohit](https://github.com/rohitbakoliya)
+
  - Place: Surat, India
  - Bio: 2nd year computer science student.
  - GitHub: [Rohit](https://github.com/rohitbakoliya)
 
 ### Name: Thomas Kolar
+
  - Place: Cologne, Germany
  - Bio: Full Stack HbbTV Software Engineer
  - GitHub: [C3-TKO](https://github.com/C3-TKO)
@@ -168,51 +171,55 @@
  - GitHub: [SensoTron](https://github.com/PhysoTronic)
 
 ### Name: Rishabh Sharma
+
  - Place: New Delhi, India
  - Bio: Android Developer
  - GitHub: [Aliencode-R](https://github.com/Aliencode-R)
 
- - GitHub: [SensoTron](https://github.com/PhysoTronici)
-
 ### Name: Hritik Tayade
+
  - Place: Pune, India
  - Bio: Student
  - GitHub: [braceritchie](https://github.com/braceritchie)
  
  ### Name: M Salman
+ 
  - Place: Delhi, India
  - Bio: Student
  - GitHub: [msalman321](https://github.com/msalman321)
 
  ### Name: Zykiel Erx
+ 
  - Place: Manila, Philippines
  - Bio: Software Engineer
  - GitHub: [ZykielErx](https://github.com/ZykielErx)
+ 
  ### Name: Pranit Brahmbhatt
+ 
  - Place: Gujarat, India
  - Bio: Student
-
  - GitHub: [pb-10](https://github.com/pb-10)
-
  
   ### Name: Wendel Marques
+  
  - Place: Goiânia, Goiás, Brazil
  - Bio: Student
  - GitHub: [WendelMarques](https://github.com/WendelMarques)
-
-
-
-## Name: Nathalia Bezerra
+ 
+  ### Name: Nathalia Bezerra
+  
  - Place: Brazil
  - Bio: IT Student
  - GitHub: [nathalia-b](https://github.com/nathalia-b)
 
-### Name: Vinicius Oliveira
+  ### Name: Vinicius Oliveira
+  
  - Place: Natal, Brazil
  - Bio: Student
  - GitHub: [Viniciu21](https://github.com/viniciu21)
 
-### Name: Stevhen
-- Place: Jakarta, Indonesia
-- Bio: Student
-- GitHub: [Stevhen](https://github.com/stevhens)
+  ### Name: Stevhen
+  
+ - Place: Jakarta, Indonesia
+ - Bio: Student
+ - GitHub: [Stevhen](https://github.com/stevhens)
