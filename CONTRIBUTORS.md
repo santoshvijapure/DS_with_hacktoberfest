@@ -165,7 +165,7 @@
 - Place: West Bengal, India
 - Bio: Computer science student
 
-### Name: SensoTron 
+### Name: SensoTron
  - Place: Zagreb, Croatia
  - Bio: Full Stack Software Developer
  - GitHub: [SensoTron](https://github.com/PhysoTronic)
@@ -181,45 +181,50 @@
  - Place: Pune, India
  - Bio: Student
  - GitHub: [braceritchie](https://github.com/braceritchie)
- 
+
  ### Name: M Salman
- 
+
  - Place: Delhi, India
  - Bio: Student
  - GitHub: [msalman321](https://github.com/msalman321)
 
  ### Name: Zykiel Erx
- 
+
  - Place: Manila, Philippines
  - Bio: Software Engineer
  - GitHub: [ZykielErx](https://github.com/ZykielErx)
- 
+
  ### Name: Pranit Brahmbhatt
- 
+
  - Place: Gujarat, India
  - Bio: Student
  - GitHub: [pb-10](https://github.com/pb-10)
- 
+
   ### Name: Wendel Marques
-  
+
  - Place: Goiânia, Goiás, Brazil
  - Bio: Student
  - GitHub: [WendelMarques](https://github.com/WendelMarques)
- 
+
   ### Name: Nathalia Bezerra
-  
+
  - Place: Brazil
  - Bio: IT Student
  - GitHub: [nathalia-b](https://github.com/nathalia-b)
 
   ### Name: Vinicius Oliveira
-  
+
  - Place: Natal, Brazil
  - Bio: Student
  - GitHub: [Viniciu21](https://github.com/viniciu21)
 
   ### Name: Stevhen
-  
+
  - Place: Jakarta, Indonesia
  - Bio: Student
  - GitHub: [Stevhen](https://github.com/stevhens)
+
+ #### Name: [Ricky Lau](https://github.com/rickylaufitness)
+- Place: Brooklyn, NY, USA
+- Bio: Full Stack Developer
+- GitHub: [rickylaufitness](https://github.com/rickylaufitness)
