@@ -3,83 +3,94 @@
 @ram-nad: Added Doubly Linked List
 @njain-01 : Added BFS program
 
-## Add iterative dfs in java
-  
-#include<bits/stdc++.h> 
-using namespace std; 
-  
-// This class represents a directed graph using adjacency 
-// list representation 
-class Graph 
+## Dimond Problem
+
+The “diamond problem” is an ambiguity that can arise as a consequence of allowing multiple inheritance. 
+It is a serious problem for languages (like C++) that allow for multiple inheritance of state. 
+In Java, however, multiple inheritance is not allowed for classes, only for interfaces, and these do not contain state.
+
+Why Java doesn’t support Multiple Inheritance?
+
+Consider the below Java code. It shows error:
+// First Parent class 
+class Parent1 
 { 
-    int V;    // No. of vertices 
-    list<int> *adj;    // adjacency lists 
-public: 
-    Graph(int V);  // Constructor 
-    void addEdge(int v, int w); // to add an edge to graph 
-    void DFS(int s);  // prints all vertices in DFS manner 
-    // from a given source. 
-}; 
-  
-Graph::Graph(int V) 
-{ 
-    this->V = V; 
-    adj = new list<int>[V]; 
+	void fun() 
+	{ 
+		System.out.println("Parent1"); 
+	} 
 } 
-  
-void Graph::addEdge(int v, int w) 
+
+// Second Parent Class 
+class Parent2 
 { 
-    adj[v].push_back(w); // Add w to v’s list. 
+	void fun() 
+	{ 
+		System.out.println("Parent2"); 
+	} 
 } 
-  
-// prints all not yet visited vertices reachable from s 
-void Graph::DFS(int s) 
+
+// Error : Test is inheriting from multiple 
+// classes 
+class Test extends Parent1, Parent2 
 { 
-    // Initially mark all verices as not visited 
-    vector<bool> visited(V, false); 
-  
-    // Create a stack for DFS 
-    stack<int> stack; 
-  
-    // Push the current source node. 
-    stack.push(s); 
-  
-    while (!stack.empty()) 
-    { 
-        // Pop a vertex from stack and print it 
-        s = stack.top(); 
-        stack.pop(); 
-  
-        // Stack may contain same vertex twice. So 
-        // we need to print the popped item only 
-        // if it is not visited. 
-        if (!visited[s]) 
-        { 
-            cout << s << " "; 
-            visited[s] = true; 
-        } 
-  
-        // Get all adjacent vertices of the popped vertex s 
-        // If a adjacent has not been visited, then puah it 
-        // to the stack. 
-        for (auto i = adj[s].begin(); i != adj[s].end(); ++i) 
-            if (!visited[*i]) 
-                stack.push(*i); 
-    } 
-} 
-  
-// Driver program to test methods of graph class 
-int main() 
+public static void main(String args[]) 
 { 
-    Graph g(5); // Total 5 vertices in graph 
-    g.addEdge(1, 0); 
-    g.addEdge(0, 2); 
-    g.addEdge(2, 1); 
-    g.addEdge(0, 3); 
-    g.addEdge(1, 4); 
-  
-    cout << "Following is Depth First Traversal\n"; 
-    g.DFS(0); 
-  
-    return 0; 
+	Test t = new Test(); 
+	t.fun(); 
 } 
+} 
+
+From the code, we see that, on calling the method fun() using Test object will cause complications such as 
+whether to call Parent1’s fun() or Parent2’s fun() method.
+
+         GrandParent
+           /     \
+          /       \
+      Parent1      Parent2
+          \       /
+           \     /
+             Test
+
+// A Grand parent class in diamond 
+class GrandParent 
+{ 
+	void fun() 
+	{ 
+		System.out.println("Grandparent"); 
+	} 
+} 
+
+// First Parent class 
+class Parent1 extends GrandParent 
+{ 
+	void fun() 
+	{ 
+		System.out.println("Parent1"); 
+	} 
+} 
+
+// Second Parent Class 
+class Parent2 extends GrandParent 
+{ 
+	void fun() 
+	{ 
+		System.out.println("Parent2"); 
+	} 
+} 
+
+
+// Error : Test is inheriting from multiple 
+// classes 
+class Test extends Parent1, Parent2 
+{ 
+public static void main(String args[]) 
+{ 
+	Test t = new Test(); 
+	t.fun(); 
+} 
+} 
+
+From the code, we see that: On calling the method fun() using Test object will cause complications such as whether to call Parent1’s fun() or Child’s fun() method.
+
+Therefore, in order to avoid such complications Java does not support multiple inheritance of classes.
