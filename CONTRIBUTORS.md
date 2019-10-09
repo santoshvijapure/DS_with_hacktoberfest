@@ -223,3 +223,9 @@
  - Place: Jakarta, Indonesia
  - Bio: Student
  - GitHub: [Stevhen](https://github.com/stevhens)
+ 
+   ### Name: Eric Kreiter
+  
+ - Place: New York, New York
+ - Bio: Fullstack Web Developer
+ - GitHub: [Eutheran](https://github.com/eutheran)
