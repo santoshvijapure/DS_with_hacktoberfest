@@ -4,6 +4,12 @@
 - Bio: Web Developer and designer.
 - GitHub: [santoshvijapure](https://github.com/santoshvijapure)
 
+### Name: Ishita Pabbi
+
+- Place: Kota, India
+- Bio: Android developer
+- GitHub: [Ishita15112001](https://github.com/Ishita15112001)
+
 ### Name : Sriram Devata
 
 - Place: Hyderabad, India
