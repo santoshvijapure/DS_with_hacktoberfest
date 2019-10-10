@@ -117,6 +117,12 @@
 - Bio: student
 - GitHub: [Ankush3103](https://github.com/Ankush3103)
 
+### Name: Anirban Dey
+
+- Place: Kolkata, India
+- Bio: Web Developer and Data Scientist.
+- GitHub: [Anirban](https://github.com/anirbandey303)
+
 ### Name : [Piyush](https://github.com/piyush072)
 
 - Place: Jamshedpur,Jharkhand, India
