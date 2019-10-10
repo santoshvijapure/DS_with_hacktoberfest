@@ -230,6 +230,10 @@
  - Bio: Student
  - GitHub: [Stevhen](https://github.com/stevhens)
 
+
+### Name: [Ricky Lau](https://github.com/rickylaufitness)
+
+
    ### Name: Eric Kreiter
   
  - Place: New York, New York
@@ -237,6 +241,7 @@
  - GitHub: [Eutheran](https://github.com/eutheran)
 
  #### Name: [Ricky Lau](https://github.com/rickylaufitness)
+
 - Place: Brooklyn, NY, USA
 - Bio: Full Stack Developer
 - GitHub: [rickylaufitness](https://github.com/rickylaufitness)
