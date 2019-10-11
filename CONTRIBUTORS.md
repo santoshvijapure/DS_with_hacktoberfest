@@ -253,3 +253,8 @@
 - Bio: Full Stack Developer
 - GitHub: [rickylaufitness](https://github.com/rickylaufitness)
 
+### Name: Laisha Wadhwa
+  
+ - Place: Andhra Pradesh, India
+ - Bio: Undergraduate in Computer Science
+ - GitHub: [laishwadhwa](https://github.com/laishawadhwa)
