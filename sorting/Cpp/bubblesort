@@ -1,0 +1,56 @@
+#include<iostream>
+using namespace std;
+void maxmin(int,int ,int,int);
+int a[10],i,n,maxx,minn,maxx1,minn1,maxx2,minn2;
+int main()
+{
+
+    cout<<"Enter size of array"<<endl;
+    cin>>n;
+    cout<<"Enter elements of array"<<endl;
+    for(i=0;i<n;i++)
+    {
+        cin>>a[i];
+    }
+    cout<<"Array elements are: "<<endl;
+    for(i=0;i<n;i++)
+    {
+        cout<<a[i]<<endl;
+    }
+    maxmin(0,n-1,maxx,minn);
+
+
+   return 0;
+}
+void maxmin(int i,int j,int maxx,int minn)
+     {
+        if(i=j)
+        {
+            minn=maxx=a[i];
+        }
+        else if(j=i+1)
+        {
+            if(a[i]>a[j])
+            {
+                maxx=a[i];
+                minn=a[j];
+            }
+            else
+            {
+                maxx=a[j];
+                minn=a[i];
+            }
+        }
+        else
+        {
+            int mid=((i+j)/2);
+            maxmin(i,mid,maxx1,minn1);
+            maxmin(mid+1,j,maxx2,minn2);
+            maxx=max(maxx1,maxx2);
+            minn=min(minn1,minn2);
+        }
+       cout<<"Maximum:"<<maxx<<endl;
+       cout<<"Minimum:"<<minn<<endl;
+
+    }
+
