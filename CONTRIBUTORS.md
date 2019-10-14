@@ -258,3 +258,9 @@
  - Place: Andhra Pradesh, India
  - Bio: Undergraduate in Computer Science
  - GitHub: [laishwadhwa](https://github.com/laishawadhwa)
+ 
+ ### Name: Riddhi Agrawal
+  
+ - Place: Bhubaneswar, India
+ - Bio: Undergraduate in Computer Science
+ - GitHub: [Riddhiagrawal001](https://github.com/Riddhiagrawal001)
