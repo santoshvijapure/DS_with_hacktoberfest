@@ -264,3 +264,10 @@
  - Place: Bhubaneswar, India
  - Bio: Undergraduate in Computer Science
  - GitHub: [Riddhiagrawal001](https://github.com/Riddhiagrawal001)
+
+### Name: Devarsh Panchal
+
+ - Place: Gujarat, India
+ - Bio: Student
+ - GitHub: [letscodedev](https://github.com/letscodedev)
+
