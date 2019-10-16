@@ -264,3 +264,9 @@
  - Place: Bhubaneswar, India
  - Bio: Undergraduate in Computer Science
  - GitHub: [Riddhiagrawal001](https://github.com/Riddhiagrawal001)
+
+ ### Name: Divyansh
+  
+ - Place: New Delhi, India
+ - Bio: Undergraduate in Computer Science
+ - GitHub: [divumarcus](https://github.com/divumarcus)
