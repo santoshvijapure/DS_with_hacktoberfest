@@ -271,3 +271,9 @@
  - Bio: Student
  - GitHub: [letscodedev](https://github.com/letscodedev)
 
+ ### Name: Divyansh
+  
+ - Place: New Delhi, India
+ - Bio: Undergraduate in Computer Science
+ - GitHub: [divumarcus](https://github.com/divumarcus)
+
