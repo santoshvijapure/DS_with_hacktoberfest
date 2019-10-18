@@ -277,3 +277,7 @@
  - Bio: Undergraduate in Computer Science
  - GitHub: [divumarcus](https://github.com/divumarcus)
 
+### Name: Manisha
+-Place: Kolkata, West Bengal, India
+-Bio: B.Tech in Computer Science
+-GitHub:[Manisha-nitd](https://github.com/Manisha-nitd)
