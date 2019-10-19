@@ -264,6 +264,11 @@
  - Place: Bhubaneswar, India
  - Bio: Undergraduate in Computer Science
  - GitHub: [Riddhiagrawal001](https://github.com/Riddhiagrawal001)
+ 
+ ### Name: Jose Luis Hernandez
+ - Place: Mexico, Guanajuato
+ - Bio: Student 
+ - GitHub: [JHernandez99](https://github.com/JHernandez99)
 
 ### Name: Devarsh Panchal
 
@@ -278,6 +283,6 @@
  - GitHub: [divumarcus](https://github.com/divumarcus)
 
 ### Name: Manisha
--Place: Kolkata, West Bengal, India
--Bio: B.Tech in Computer Science
--GitHub:[Manisha-nitd](https://github.com/Manisha-nitd)
+    -Place: Kolkata, West Bengal, India
+    -Bio: B.Tech in Computer Science
+    -GitHub:[Manisha-nitd](https://github.com/Manisha-nitd)
