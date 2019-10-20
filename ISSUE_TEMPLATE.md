@@ -1,9 +1,9 @@
-# Title of the issue.
+# [Title of the issue]
 
 
 ### Bug reports:
 
-Please replace this line with a brief summary of your issue **AND** if reporting a build issue include the link from.
+[Please replace this line with a brief summary of your issue **AND** if reporting a build issue include the link from.]
 
 ### Features:
 
