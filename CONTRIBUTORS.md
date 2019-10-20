@@ -1,4 +1,4 @@
-### Name: SantoshVijapure
+﻿### Name: SantoshVijapure
 
 - Place: Pune, India
 - Bio: Web Developer and designer.
@@ -283,6 +283,17 @@
  - GitHub: [divumarcus](https://github.com/divumarcus)
 
 ### Name: Manisha
+
+-Place: Kolkata, West Bengal, India
+-Bio: B.Tech in Computer Science
+-GitHub:[Manisha-nitd](https://github.com/Manisha-nitd)
+
+### Name: Anchal Singh
+-Place: Chandigarh,India
+-Bio: BE in CSE with Big Data Analytics Specialization
+-GitHub:[Aanchal1012](https://github.com/Aanchal1012)
+
     -Place: Kolkata, West Bengal, India
     -Bio: B.Tech in Computer Science
     -GitHub:[Manisha-nitd](https://github.com/Manisha-nitd)
+

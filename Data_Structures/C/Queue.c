@@ -1,77 +1,71 @@
-#include<stdio.h>
-#include<conio.h>
-#include<stdlib.h>
-int index=0;
-int n=5;
-int q[100];
-void enqueue(int k)
-{
-	if(index<n)
-	{
-		q[index]=k;
-		index++;
-	}
-	else
-	{
-		printf("Queue is FULL!!\n");
-	}
+#include <stdio.h>
+#include <stdlib.h>
+typedef struct Link{
+int element;
+struct Link *next;
+}Link;
+Link *create_link(int i, Link *nextval){
+    Link *n = (Link*) malloc(sizeof(Link));
+    n->element = i;
+    n->next = nextval;
+    return n;
 }
-void dequeue()
-{
-	if(index==0)
-	{
-		printf("Queue is EMPTY!!\n");
-	}
-	else
-	{
-		int i=1;
-		printf("The element removed is:%d\n",q[0]);
-		while(i<index)
-		{
-			q[i-1]=q[i];
-			i++;
-		}
-		index--;
-	}
+Link *create_link2(Link *nextval){
+    Link *n = (Link*) malloc(sizeof(Link));
+    n->next = nextval;
+    return n;
 }
-void print()
-{
-	if(index==0)
-	{
-		printf("Queue is EMPTY!!\n");
-	}
-	else 
-	{
-     int i=0;
-     printf("The elements are:\n");
-	 while(i<index)
-	 {
-	 	printf("%d\n",q[i]);
-	 	i++;
-	 }		
-	}
+typedef struct Queue{
+Link *front;
+Link *rear;
+int size;
+}Queue;
+Queue *create_queue(){
+    Queue *q = (Queue*) malloc(sizeof(Queue));
+    q->rear=create_link2(NULL);
+    q->front=q->rear;
+    q->size =0;
+    return q;
 }
-void main()
-{
-	int a,k;
-	while(1)
-	{
-		printf("Select your option:\n");
-		printf("1.Enqueue\n2.Dequeue\n3.Print elements\n4.Exit\n");
-		scanf("%d",&a);
-		switch(a)
-		{
-			case 1: printf("Enter the element to be inserted:\n");
-			        scanf("%d",&k);
-			        enqueue(k);
-			        break;
-			case 2: dequeue();
-			        break;
-			case 3: print();
-			        break;
-			case 4: exit(0);
-			        break;
-		}
-	}
-	getch();
+void clear(Queue *q){
+    q->rear=create_link2(NULL);
+    q->front=q->rear;
+    q->size =0;
+}
+void enqueue(Queue *q, int it){
+    q->rear->next = create_link(it, NULL);
+    q->rear = q->rear->next;
+    q->size++;
+}
+int dequeue(Queue *q){
+    if(q->size==0) printf("OPAAAAAA\n");
+    int it = q->front->next->element;
+    q->front->next = q->front->next->next;
+    if(q->front->next==NULL){
+        q->rear = q->front;
+    }
+    (q->size)--;
+    return it;
+}
+int frontValue(Queue *q){
+    if(q->size==0) printf("OPAAAAA\n");
+    return q->front->next->element;
+}
+int length(Queue *q){
+    return q->size;
+}
+int main(){
+    
+    Queue *q;
+    q = create_queue();
+    enqueue(q, 12);
+    enqueue(q, 13);
+    enqueue(q, 80);
+    printf("Tamanho: %d\n", length(q));
+    printf("deq: %d\n", dequeue(q));
+    printf("deq: %d\n", dequeue(q));
+    printf("deq: %d\n", dequeue(q));
+    printf("Tamanho: %d\n", length(q));
+
+    return 0;
 }
