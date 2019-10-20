@@ -1,85 +1,84 @@
-#include<stdio.h>
-struct q
+#include <stdio.h>
+ 
+#define MAX 50
+ 
+void insert();
+void delete();
+void display();
+int queue_array[MAX];
+int rear = - 1;
+int front = - 1;
+main()
 {
-    int front;
-    int rear;
-    int Q[10];
-};
-int size;
-void enq(struct q *p)
-{
-    int el;
-    printf("enter element:");
-    scanf("%d",&el);
-    if(p->rear==size-1)
+    int choice;
+    while (1)
     {
-        printf("queue is full");
+        printf("1.Insert element to queue \n");
+        printf("2.Delete element from queue \n");
+        printf("3.Display all elements of queue \n");
+        printf("4.Quit \n");
+        printf("Enter your choice : ");
+        scanf("%d", &choice);
+        switch (choice)
+        {
+            case 1:
+            insert();
+            break;
+            case 2:
+            delete();
+            break;
+            case 3:
+            display();
+            break;
+            case 4:
+            exit(1);
+            default:
+            printf("Wrong choice \n");
+        } 
+    } 
+} 
+ 
+void insert()
+{
+    int add_item;
+    if (rear == MAX - 1)
+    printf("Queue Overflow \n");
+    else
+    {
+        if (front == - 1)
+        /*If queue is initially empty */
+        front = 0;
+        printf("Inset the element in queue : ");
+        scanf("%d", &add_item);
+        rear = rear + 1;
+        queue_array[rear] = add_item;
+    }
+} 
+ 
+void delete()
+{
+    if (front == - 1 || front > rear)
+    {
+        printf("Queue Underflow \n");
+        return ;
     }
     else
     {
-        if(p->rear==-1 && p->front==-1)
-        {
-            p->front=0;
-        }
-        p->rear++;
-        p->Q[p->rear]=el;
+        printf("Element deleted from queue is : %d\n", queue_array[front]);
+        front = front + 1;
     }
-disp(&p);
-}
-
-void deq(struct q *p)
-{
-    int it;
-    if(p->front==-1 && p->rear==-1)
-    {
-        printf("array is empty");
-    }
-    else
-    {
-        it=p->Q[p->front];
-        if(p->front == p->rear)
-        {
-            p->front=-1;
-            p->rear=-1;
-        }
-        else
-        {
-            p->front++;
-        }
-        printf("removed:%d",it);
-
-    }
-}
-
-void disp(struct q *p)
+} 
+ 
+void display()
 {
     int i;
-    for(i=p->front;i<=p->rear;i++)
+    if (front == - 1)
+        printf("Queue is empty \n");
+    else
     {
-        printf("%d",p->Q[i]);
+        printf("Queue is : \n");
+        for (i = front; i <= rear; i++)
+            printf("%d ", queue_array[i]);
+        printf("\n");
     }
-}
-
-
-
-
-void main()
-{
-    struct q p;
-    int ch;
-    p.rear=-1;
-    p.front=-1;
-
-    scanf("%d",&size);
-    while(1){
-    printf("enter choice:");
-    scanf("%d",&ch);
-    switch (ch)
-    {
-    case 1:enq(&p);
-            break;
-    case 2:deq(&p);
-            break;
-    case 3:disp(&p);
-            break;
-    }}}
+} 
