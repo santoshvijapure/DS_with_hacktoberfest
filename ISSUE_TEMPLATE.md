@@ -1,8 +1,5 @@
-# Please follow the checklist:
+# Title of the issue.
 
-- [ ] Did you [add your name](https://github.com/santoshvijapure/DS_with_hacktoberfest#1-add-your-name)?
-- [ ] Did you add the [profile page](https://github.com/santoshvijapure/DS_with_hacktoberfest#2-add-a-profile-page)?
-- [ ] Did you [create a vanilla version of your favourite data structure](https://github.com/santoshvijapure/DS_with_hacktoberfest#3-create-vanilla-version-of-your-favourite-data-structure-in-your-favouite-language)?
 
 ### Bug reports:
 
