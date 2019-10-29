@@ -302,3 +302,10 @@
  - Place: Kolkata, India
  - Bio: Undergraduate in Computer Science
  - GitHub: [divumarcus](https://github.com/Shane1026)
+ 
+
+### Name: Pratyusha Thumiki
+
+- Place: Hyderabad, India
+- Bio: Android Developer and an AI Enthusiast.
+- GitHub: [PratyushaThumiki](https://github.com/PratyushaThumiki)
