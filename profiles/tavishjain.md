@@ -16,4 +16,5 @@
 
 - ### Profile Link
 
-[Santosh Vijapure](https://github.com/tavishjain)
+[Tavish Jain](https://github.com/tavishjain)
+
