@@ -1,6 +1,6 @@
 # DS_with_hackoberfest
 
-![Hacktoberfest 2019](https://hacktoberfest.digitalocean.com/assets/HF19_social-744d976f227e4aff6866443abcede8c651b309ec9c7c9f7410f5944f8e1299b9.png)
+![Hacktoberfest 2020](https://hacktoberfest.digitalocean.com/assets/HF-full-logo-b05d5eb32b3f3ecc9b2240526104cf4da3187b8b61963dd9042fdc2536e4a76c.svg)
 
 
 # 🎃 HacktoberFest Starter Project 🎃
