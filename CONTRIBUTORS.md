@@ -1,4 +1,4 @@
-﻿### Name: SantoshVijapure
+### Name: SantoshVijapure
 
 - Place: Pune, India
 - Bio: Web Developer and designer.
@@ -309,3 +309,9 @@
 - Place: Hyderabad, India
 - Bio: Android Developer and an AI Enthusiast.
 - GitHub: [PratyushaThumiki](https://github.com/PratyushaThumiki)
+
+### Name: Sahil Tagunde
+
+- Place: Pune, India
+- Bio: Cs
+- GitHub: https://github.com/Tagsahil
