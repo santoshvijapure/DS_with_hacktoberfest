@@ -322,3 +322,8 @@
 - Place: Pune, India
 - Bio: Cs
 - GitHub: (https://github.com/Tagsahil)
+
+### Name: Janit Chawla
+- Place: Delhi, India
+- Bio: WebDeveloper
+- Github: [JanitChawla](https://github.com/JanitChawla)
