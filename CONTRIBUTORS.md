@@ -322,3 +322,9 @@
 - Place: Pune, India
 - Bio: Cs
 - GitHub: (https://github.com/Tagsahil)
+
+### Name: Yash Walia
+
+- Place: Noida, India
+- Bio: Full Stack Developer, ML Enthusiast
+- GitHub: [ywalia01](https://github.com/ywalia01)
