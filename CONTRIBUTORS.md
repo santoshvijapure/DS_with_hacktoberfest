@@ -322,3 +322,8 @@
 - Place: Pune, India
 - Bio: Cs
 - GitHub: (https://github.com/Tagsahil)
+
+### Name: Hridya Krishna R
+- Place: Kerala, India
+- Bio: Btech Computer science
+- Github: [hridyakrishna] (https://github.com/hridyakrishna)
