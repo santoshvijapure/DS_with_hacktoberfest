@@ -1,0 +1,3 @@
+[submodule "DS-with_hacktoberfest"]
+	path = DS-with_hacktoberfest
+	url = https://github.com/Manas502/DS_with_hacktoberfest.git
