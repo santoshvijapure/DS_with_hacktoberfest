@@ -1,4 +1,12 @@
-﻿### Name: SantoshVijapure
+
+### Name: Keshav Agrawal
+
+- Place: Kota, India
+- Bio: Full Stack Web Developer,Python Django Developer.
+- GitHub: [Keshav04042001](https://github.com/Keshav04042001)
+
+
+### Name: SantoshVijapure
 
 - Place: Pune, India
 - Bio: Web Developer and designer.
@@ -231,6 +239,13 @@
  - Bio: Student
  - GitHub: [Viniciu21](https://github.com/viniciu21)
 
+### Name: Sahil Anil Tagunde
+
+- Place: Pune, India
+- Bio: Cs
+- GitHub: https://github.com/sahiltagunde
+
+
   ### Name: Stevhen
 
  - Place: Jakarta, Indonesia
@@ -309,3 +324,14 @@
 - Place: Hyderabad, India
 - Bio: Android Developer and an AI Enthusiast.
 - GitHub: [PratyushaThumiki](https://github.com/PratyushaThumiki)
+
+### Name: Sahil Tagunde
+
+- Place: Pune, India
+- Bio: Cs
+- GitHub: (https://github.com/Tagsahil)
+
+### Name: Hridya Krishna R
+- Place: Kerala, India
+- Bio: Btech Computer science
+- Github: [hridyakrishna] (https://github.com/hridyakrishna)
