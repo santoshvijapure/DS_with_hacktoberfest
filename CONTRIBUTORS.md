@@ -332,6 +332,12 @@
 - GitHub: (https://github.com/Tagsahil)
 
 
+### Name: Janit Chawla
+- Place: Delhi, India
+- Bio: WebDeveloper
+- Github: [JanitChawla](https://github.com/JanitChawla)
+
+
 ### Name: Yash Walia
 
 - Place: Noida, India
@@ -342,4 +348,5 @@
 - Place: Kerala, India
 - Bio: Btech Computer science
 - Github: [hridyakrishna] (https://github.com/hridyakrishna)
+
 
