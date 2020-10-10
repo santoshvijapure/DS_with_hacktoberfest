@@ -331,7 +331,15 @@
 - Bio: Cs
 - GitHub: (https://github.com/Tagsahil)
 
+
+### Name: Yash Walia
+
+- Place: Noida, India
+- Bio: Full Stack Developer, ML Enthusiast
+- GitHub: [ywalia01](https://github.com/ywalia01)
+
 ### Name: Hridya Krishna R
 - Place: Kerala, India
 - Bio: Btech Computer science
 - Github: [hridyakrishna] (https://github.com/hridyakrishna)
+
