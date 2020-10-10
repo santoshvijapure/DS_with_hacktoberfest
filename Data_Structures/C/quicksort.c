@@ -1,50 +1,49 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-int partition(long long int v[], int l, int r){
-  long long int p = v[l];
-  int i = l;
-  int j = r+1;
-  long long int swap;
+#include<stdio.h>
+void quicksort(int number[25],int first,int last){
+   int i, j, pivot, temp;
 
-do{
-  do{
-    i++;
-  }while(!(v[i]>=p||i>=r));
-  do{
-    j--;
-  }while(v[j]>p);
-  swap = v[i];
-  v[i] = v[j];
-  v[j] = swap;
-}while(i<j);
-swap = v[i];
-v[i] = v[j];
-v[j] = swap;
+   if(first<last){
+      pivot=first;
+      i=first;
+      j=last;
 
-swap = v[l];
-v[l] = v[j];
-v[j] = swap;
-return j;
+      while(i<j){
+         while(number[i]<=number[pivot]&&i<last)
+            i++;
+         while(number[j]>number[pivot])
+            j--;
+         if(i<j){
+            temp=number[i];
+            number[i]=number[j];
+            number[j]=temp;
+         }
+      }
+
+      temp=number[pivot];
+      number[pivot]=number[j];
+      number[j]=temp;
+      quicksort(number,first,j-1);
+      quicksort(number,j+1,last);
+
+   }
 }
-void quicksort(long long int v[], int l, int r){
-  int s;
-  if(l<r){
-    s = partition(v, l, r);
-    quicksort(v, l, s-1);
-    quicksort(v, s+1, r);
-  }
-}
+
 int main(){
-    
-   long long int vet[10000], n;
-   scanf("%lld", &n);
-   for(int i=0; i<n; i++){
-       scanf("%lld", &vet[i]);
-   }
-   quicksort(vet, 0, n-1);
-   for(int i=0; i<n; i++){
-       printf("%lld ", vet[i]);
-   }
-    return 0;
+   int i, count, number[25];
+
+   printf("How many elements are u going to enter?: ");
+   scanf("%d",&count);
+
+   printf("Enter %d elements: ", count);
+   for(i=0;i<count;i++)
+      scanf("%d",&number[i]);
+
+   quicksort(number,0,count-1);
+
+   printf("Order of Sorted elements: ");
+   for(i=0;i<count;i++)
+      printf(" %d",number[i]);
+
+   return 0;
 }
+

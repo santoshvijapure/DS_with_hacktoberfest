@@ -1,71 +1,84 @@
 #include <stdio.h>
-#include <stdlib.h>
-typedef struct Link{
-int element;
-struct Link *next;
-}Link;
-Link *create_link(int i, Link *nextval){
-    Link *n = (Link*) malloc(sizeof(Link));
-    n->element = i;
-    n->next = nextval;
-    return n;
-}
-Link *create_link2(Link *nextval){
-    Link *n = (Link*) malloc(sizeof(Link));
-    n->next = nextval;
-    return n;
-}
-typedef struct Queue{
-Link *front;
-Link *rear;
-int size;
-}Queue;
-Queue *create_queue(){
-    Queue *q = (Queue*) malloc(sizeof(Queue));
-    q->rear=create_link2(NULL);
-    q->front=q->rear;
-    q->size =0;
-    return q;
-}
-void clear(Queue *q){
-    q->rear=create_link2(NULL);
-    q->front=q->rear;
-    q->size =0;
-}
-void enqueue(Queue *q, int it){
-    q->rear->next = create_link(it, NULL);
-    q->rear = q->rear->next;
-    q->size++;
-}
-int dequeue(Queue *q){
-    if(q->size==0) printf("OPAAAAAA\n");
-    int it = q->front->next->element;
-    q->front->next = q->front->next->next;
-    if(q->front->next==NULL){
-        q->rear = q->front;
+ 
+#define MAX 50
+ 
+void insert();
+void delete();
+void display();
+int queue_array[MAX];
+int rear = - 1;
+int front = - 1;
+main()
+{
+    int choice;
+    while (1)
+    {
+        printf("1.Insert element to queue \n");
+        printf("2.Delete element from queue \n");
+        printf("3.Display all elements of queue \n");
+        printf("4.Quit \n");
+        printf("Enter your choice : ");
+        scanf("%d", &choice);
+        switch (choice)
+        {
+            case 1:
+            insert();
+            break;
+            case 2:
+            delete();
+            break;
+            case 3:
+            display();
+            break;
+            case 4:
+            exit(1);
+            default:
+            printf("Wrong choice \n");
+        } 
+    } 
+} 
+ 
+void insert()
+{
+    int add_item;
+    if (rear == MAX - 1)
+    printf("Queue Overflow \n");
+    else
+    {
+        if (front == - 1)
+        /*If queue is initially empty */
+        front = 0;
+        printf("Inset the element in queue : ");
+        scanf("%d", &add_item);
+        rear = rear + 1;
+        queue_array[rear] = add_item;
     }
-    (q->size)--;
-    return it;
-}
-int frontValue(Queue *q){
-    if(q->size==0) printf("OPAAAAA\n");
-    return q->front->next->element;
-}
-int length(Queue *q){
-    return q->size;
-}
-int main(){
-    
-    Queue *q;
-    q = create_queue();
-    enqueue(q, 12);
-    enqueue(q, 13);
-    enqueue(q, 80);
-    printf("Tamanho: %d\n", length(q));
-    printf("deq: %d\n", dequeue(q));
-    printf("deq: %d\n", dequeue(q));
-    printf("deq: %d\n", dequeue(q));
-    printf("Tamanho: %d\n", length(q));
-
-    return 0;
-}
+} 
+ 
+void delete()
+{
+    if (front == - 1 || front > rear)
+    {
+        printf("Queue Underflow \n");
+        return ;
+    }
+    else
+    {
+        printf("Element deleted from queue is : %d\n", queue_array[front]);
+        front = front + 1;
+    }
+} 
+ 
+void display()
+{
+    int i;
+    if (front == - 1)
+        printf("Queue is empty \n");
+    else
+    {
+        printf("Queue is : \n");
+        for (i = front; i <= rear; i++)
+            printf("%d ", queue_array[i]);
+        printf("\n");
+    }
+} 
