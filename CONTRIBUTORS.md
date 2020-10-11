@@ -349,4 +349,9 @@
 - Bio: Btech Computer science
 - Github: [hridyakrishna] (https://github.com/hridyakrishna)
 
+### Name: Rohit Sharma
+- Place: Haryana, India
+- Bio: Android Java Developer
+- Github: [Rohit-2602] (https://github.com/Rohit-2602)
+
 
