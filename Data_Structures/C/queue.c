@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 typedef struct Link{
@@ -69,3 +70,5 @@ int main(){
 
     return 0;
 }
+
+
