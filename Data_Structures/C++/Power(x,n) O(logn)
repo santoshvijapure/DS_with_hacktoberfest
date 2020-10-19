@@ -1,0 +1,31 @@
+class Solution {
+public:
+    double myPow(double x, int n1) {
+        double ans=1;
+        if(x==1)
+            return 1;
+        if(n1==0)
+            return 1.0000;
+        double ex = x;
+        long long int n = n1;
+        int neg =0;
+        if(n<0)
+            neg=1;
+        if(n<0)
+        n=-n;
+        while(n>0)
+        {
+            if(n%2==1)
+            {
+                ans*=ex;
+            }
+            n/=2;
+            ex=ex*ex;
+        }
+        if(neg==1)
+            return 1.00/ans;
+        
+        
+        return ans;
+    }
+};
