@@ -359,4 +359,9 @@
 - Bio: python, Java Developer
 - Github: [avik001] (https://github.com/avik001)
 
+#### Name: Shashwatha Karkera
+- Place: Udupi,Karnataka,India.
+- Bio: Computer Science Engineering Student enthusiastic about webdevelopment.
+- GitHub: [shashwatha411](https://github.com/shashwatha411)
+
 
