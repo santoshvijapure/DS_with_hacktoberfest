@@ -1,4 +1,10 @@
 
+### Name: Priyanka
+
+- Place: Bombay, India
+- Bio: Chess is love before coding
+- GitHub: [priyanka00110](https://github.com/priyanka00110)
+
 ### Name: Madhv Agrawal
 
 - Place: Jaipur, India
